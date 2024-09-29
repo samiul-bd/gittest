@@ -38,11 +38,11 @@ button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    background-color: #007BFF;
+    background-color: #df0998;
     color: white;
     transition: background 0.3s;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #08d808;
 }
