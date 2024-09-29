@@ -3,7 +3,12 @@ function appendToDisplay(value) {
 }
 
 function clearDisplay() {
-    document.getElementById('display').value = '';
+    if(confirm('Are you sure ? ')){
+
+        document.getElementById('display').value = '';
+
+    }  
+    
 }
 
 function calculateResult() {
